@@ -1,0 +1,54 @@
+body{
+	
+	background-image: url(../img/bpb.png);
+	background-repeat:no-repeat ;
+	/* 设置背景不重复 */
+	background-size:100% 100%;
+	/* 设置背景大小 */
+	background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#full{
+	border-radius: 0.5rem;
+	background-color: aliceblue;
+    width: 100%;
+	min-width: 60rem;
+	padding: 10px;
+  	background-color: rgba(50,100,120,0.5);
+	
+}
+
+#one {
+	list-style: none;
+	
+   
+}
+
+#one li{
+	  display: inline; 
+	  /* 使列表横列 */
+	  
+	
+ }
+ 
+#one a{
+    text-decoration:none; 
+	/* 去掉默认样式中下划线 */
+	 color: black;
+	
+ }
+ 
+ 
+
+
+
+#desk-2{
+	border-radius: 1.5rem;
+	background-color: aliceblue;
+	width: 45rem;
+	height: 31rem;
+	position: relative; left: 600px;   bottom: 371px;
+	background-color: rgba(50,100,120,0.5);
+}
